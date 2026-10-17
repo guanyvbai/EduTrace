@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Samples, private distributions, secrets and large models
+data/
+secrets/
+models/
+checkpoints/
+artifacts/
+outputs/
+benchmarks/runs/
+*.key
+*.pem
+*.p12
+*.pth
+*.pt
+*.onnx
+.DS_Store
